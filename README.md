@@ -2,10 +2,9 @@
 
 API to fetch github trending
 
+## Usage
 
-## usage
-
-get package:
+install package:
 
 ```cmd
 $ go get -u github.com/darjun/ghtrending
@@ -40,7 +39,7 @@ t := ghtrending.New(ghtrending.WithMonthly(), ghtrending.WithLanguage("C++"))
 t := ghtrending.New(ghtrending.WithSpokenLanguageCode("cn"))
 ```
 
-you don't need to new object:
+you don't need to create object:
 
 ```golang
 repos := ghtrending.TrendingRepositories()
